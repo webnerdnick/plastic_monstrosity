@@ -9,7 +9,7 @@ Depending on the rigidity of the short-axis gantry, your options could almost be
 * Broad RPM range or 10,000 to 30,000 RPM
 * Easy to replace brushes and bearings
 * About 4 lbs
-* Around $99 on Amazon
+* Around $99 on [Amazon](https://www.amazon.com/gp/product/B00E7D3V4S)
 
 *Use the makita.stl part to hold this spindle*
 
@@ -19,6 +19,7 @@ Depending on the rigidity of the short-axis gantry, your options could almost be
 * 16,000 - 27,000 RPM
 * LED Work Light
 * About 5 lbs
+* Around $139.00 on [Amazon](https://www.amazon.com/gp/product/B0048EFUV8)
 
 *Use the dwp611.stl to hold this spindle*
 
