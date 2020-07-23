@@ -23,6 +23,18 @@ Depending on the rigidity of the short-axis gantry, your options could almost be
 
 *Use the dwp611.stl to hold this spindle*
 
+## Carbide Compact Router
+* 110 V AC only with US Plug
+* 1/4" Collet
+* 12,000 - 30,000 RPM
+* Rebranded Makita
+* 14 foot power cord
+* comes with 2 sets of replacement brushes
+* $80 at [Carbide3D](https://shop.carbide3d.com/products/carbide-compact-router?variant=14063567667261)
+
+
+*Use the zAxis_65mm_spindle.stl to hold this spindle*
+
 ## Generic Options
 
 52mm, 70mm, and 80mm generic spindle mounts are also included in the printable parts, for a range of other available spindles. I do not have any specific experience or recomendations for a generic spindle.

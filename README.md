@@ -2,7 +2,7 @@
 ## 3D Printable 4' x 8' CNC machine
 
 
-The printable part files are originally sourced from spiffcow's git repo, and details and documentation have been compied from the Thingiverse project page at: https://www.thingiverse.com/thing:2471313
+The printable part files are originally sourced from spiffcow's git repo, and details and documentation have been compied from the Thingiverse project page at: https://www.thingiverse.com/thing:2471313 and OpenBuilds here: https://openbuilds.com/builds/plastic-monstrosity.5353/
 
 This repo was started as a way to further organize the project and make it easier for those wishing to build the project to understand how things come together.
 
