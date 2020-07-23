@@ -78,7 +78,7 @@ Out of convenience and better pricing, large packs of nuts and bolts are linked,
 |      | Makita Compact Router                           | $99.00     | Amazon | https://www.amazon.com/gp/product/B00E7D3V4S | |
 |  OR  |    |||||
 |      | DeWalt DWP611 Router                            | $139.00    | Amazon | https://www.amazon.com/gp/product/B0048EFUV8 | |
-|
+|      |                                                 |            |        |                                              | |
 | 1    | 1/4" Up-Cut Solid Carbide Spiral Bit **         | $19.53     | Amazon | https://www.amazon.com/gp/product/B000K2BGNS | |
 
 ***Lowes also carries these, but they are about $2-$3 more expensive than Amazon.*
