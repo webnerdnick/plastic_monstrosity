@@ -30,6 +30,6 @@ I got the basic idea from Kreg tool for these workbench plans: https://www.build
 You can use the above guide and expand it to fit the plastic monstrosity.  We're aiming for about 5'-6" wide by 9' long, and 38" high is a good height for me, but pick something that works for you.
 
 
-![spiff cows workbench](images/workbench_overview_spiffcow)
+![spiff cows workbench](images/workbench_overview_spiffcow.jpg)
 
 
