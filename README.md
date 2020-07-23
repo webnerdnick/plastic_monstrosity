@@ -25,4 +25,4 @@ While the short axis is primarily determined by the length of the C-Beam you pur
 
 [Building the Table](table.md)
 
-Possible Upgrades
+[Possible Upgrades](upgrades.md)
