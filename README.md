@@ -23,7 +23,7 @@ While the short axis is primarily determined by the length of the C-Beam you pur
 
 [Print Settings](print_settings.md)
 
-[Building the Table](table.md)
+[Building the Table](building_bench.md)
 
 [Possible Upgrades](upgrades.md)
 
