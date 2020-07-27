@@ -18,3 +18,10 @@ This aassumes that you've already purchased the C-Beams, motor, and threaded rod
 *Note: Requires Solid V Wheel kit, instead of Mini V Wheel kit for the gantry. 4 mini v wheels are still used for the z-axis plate.
 
 Eccentric spacers should only be needed on the top side of the gantry in order to snug up the wheels.
+
+From thingiverse, user Luk14, gave these overview pictures of his upgraded gantry, using the BOM above.
+
+![upgraded gantry overview](images/upgraded_gantry/gantry_2_overview.JPG)
+
+![upgraded gantry overview 2](images/upgraded_gantry/gantry_2_overview_2.jpg)
+
