@@ -66,8 +66,9 @@ Out of convenience and better pricing, large packs of nuts and bolts are linked,
 | 1     | 50 pack m5 25mm cap head bolt                   |        | $8.45      | eBay   | https://www.ebay.com/itm/M5-Socket-Head-Cap-Screws-12-9-Alloy-Steel-w-Black-Oxide-DIN-912-0-80-Coarse/112016494139 | |
 | 1     | 100 pack m5 12mm cap head bolt                  |        | $11.72     | eBay   | https://www.ebay.com/itm/M5-Socket-Head-Cap-Screws-12-9-Alloy-Steel-w-Black-Oxide-DIN-912-0-80-Coarse/112016494139 | |
 | 20    | 5/16"-18 lock nuts (nylon)                      |        | $0.15      | Ace Hardware | | used on long axis |
+| 4     | 5/16"-18 Hex bolt 2" long                       |        |            | Ace Hardware | | long axis, center bearings |
 | 10    | 5/16"-18 hex bolt 3.5" long                     |        | $0.45      | Ace Hardware | | used on long axis | 
-| 20    | 5/16"-18 hex bolts 1.5" long                    |        | $0.25      | Ace Hardware | | used on long axis |
+| 20    | 5/16"-18 hex bolts 1.5" long                    |        | $0.25      | Ace Hardware | | long axis, side bearings |
 
 ***You want slide-in, NOT drop-in tee nuts. The drop in are a pain to work with, but make sure you have the right amount of nuts in the slot before assembling or you'll have to take it apart to add a nut*
 
