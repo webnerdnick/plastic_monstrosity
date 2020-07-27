@@ -25,6 +25,8 @@ While the short axis is primarily determined by the length of the C-Beam you pur
 
 [Building the Table](building_bench.md)
 
+[Adding the long-axis Rails (using the jig.stl)](adding_rails.md)
+
 [Possible Upgrades](upgrades.md)
 
 [FAQ](faq.md)
