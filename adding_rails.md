@@ -24,12 +24,15 @@ Most likely, you're conduit will have a slight bend along the length. Using a bo
 
 
 Here you can see this side of the pipe doesn't have a bend in it
+
 ![bend in pipe](images/rails/finding_edge_1.jpg)
 
 As I continued to rotate the pipe, this shows the crown, and I marked the opposite side
+
 ![bend in pipe](images/rails/finding_edge_2.jpg)
 
 Here I marked 180 deg. from where the bend was the greatest against the straight edge. This point will become the side that I want to install the conduit mounts on.
+
 ![making opposite side of bend](images/rails/marking_top.jpg)
 
 # Step 5
