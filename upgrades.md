@@ -5,7 +5,9 @@
 
 The following upgrades will replace the 3D printed parts with machined plates and parts from OpenBuilds. This would allow for a much more rigid setup for attaching spindles, increasing overall accuracy.
 
-This aassumes that you've already purchased the C-Beams, motor, and threaded rod for the z-axis.
+This aassumes that you've already purchased the C-Beams, motor, and threaded rod for the z-axis, and have printed the endcap.stl, guardplate.stl, and the bottomEndcap.stl files.
+
+*There are several nuts, bolts, and shims that need to be identified and added to the BOM below.*
 
 | Qty. | Part                            | Price Ea.   | Link                                  |
 |------|---------------------------------|-------------|---------------------------------------|
