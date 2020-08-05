@@ -203,9 +203,9 @@ switch.spindle.enable                       true             #
 switch.spindle.input_on_command             M3               #
 switch.spindle.input_off_command            M5               #
 switch.spindle.output_pin                   1.22              # Here we are using the first big MOSFET
-switch.spindle.output_type                  digital              # pwm output settable with S parameter in the input_on_comand
+switch.spindle.output_type                  pwm              # pwm output settable with S parameter in the input_on_comand
 switch.module_name.failsafe_set_to 		    0 
-switch.module_name.startup_state            false
+switch.spindle.max_pwm                           255 
 
 ## Temperatureswitch :
 # automatically toggle a switch at a specified temperature. Different ones of these may be defined to monitor different temperatures and switch different swithxes
