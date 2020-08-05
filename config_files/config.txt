@@ -10,6 +10,16 @@ mm_per_arc_segment                           0.02              # Arcs are cut in
 #mm_per_line_segment                          5                # Lines can be cut into segments ( not usefull with cartesian
                                                               # coordinates robots ).
 
+## Network settings
+network.enable                               false            # enable the ethernet network services
+#network.webserver.enable                     true             # enable the webserver
+#network.telnet.enable                        true             # enable the telnet server
+
+#network.ip_address                           192.168.1.111    # the IP address
+#network.ip_mask                              255.255.255.0    # the ip mask
+#network.ip_gateway                           192.168.1.1      # the gateway address
+#network.mac_override                         45.E2.F9.4E.BD.49  # override the mac address, only do this if you have a conflict
+
 # Arm solution configuration : Cartesian robot. Translates mm positions into stepper positions
 alpha_steps_per_mm                           80 #200               # Steps per mm for alpha stepper
 beta_steps_per_mm                            80 #160               # Steps per mm for beta stepper
@@ -41,13 +51,13 @@ z_axis_max_speed                             1200              # mm/min
 alpha_step_pin                               2.0              # Pin for alpha stepper step signal
 alpha_dir_pin                                0.5!              # Pin for alpha stepper direction
 alpha_en_pin                                 0.4              # Pin for alpha enable pin
-alpha_current                                2.5             # X stepper motor current
+alpha_current                                1.0             # X stepper motor current
 alpha_max_rate                               7000.0          # mm/min
 
 beta_step_pin                                2.1              # Pin for beta stepper step signal
 beta_dir_pin                                 0.11!             # Pin for beta stepper direction
 beta_en_pin                                  0.10             # Pin for beta enable
-beta_current                                 2.5           # Y stepper motor current
+beta_current                                 1.0           # Y stepper motor current
 beta_max_rate                                7000.0          # mm/min
 
 gamma_step_pin                               2.2              # Pin for gamma stepper step signal
@@ -87,7 +97,7 @@ currentcontrol_module_enable                 true             #
 #extruder.hotend.retract_zlift_length            0               # zlift on retract in mm, 0 disables
 #extruder.hotend.retract_zlift_feedrate          6000            # zlift feedrate in mm/min (Note mm/min NOT mm/sec)
 
-delta_current                                2.5              # First extruder stepper motor current
+delta_current                                1.0              # First extruder stepper motor current
 
 # Second extruder module configuration
 #extruder.hotend2.enable                          true             # Whether to activate the extruder module at all. All configuration is ignored if false
@@ -103,7 +113,7 @@ delta_current                                2.5              # First extruder s
 #extruder.hotend2.x_offset                        0                # x offset from origin in mm
 #extruder.hotend2.y_offset                        25.0             # y offset from origin in mm
 #extruder.hotend2.z_offset                        0                # z offset from origin in mm
-epsilon_current                              2.5              # Second extruder stepper motor current
+epsilon_current                              1.0              # Second extruder stepper motor current
 
 
 ## Laser module configuration
@@ -188,8 +198,14 @@ switch.misc.input_off_command                M43              #
 switch.misc.output_pin                       2.4              #
 switch.misc.output_type                      digital          # just an on or off pin
 
-# Switch module for spindle control
-#switch.spindle.enable                        false            #
+#Spindle control Switch module
+switch.spindle.enable                       true             #
+switch.spindle.input_on_command             M3               #
+switch.spindle.input_off_command            M5               #
+switch.spindle.output_pin                   1.22              # Here we are using the first big MOSFET
+switch.spindle.output_type                  digital              # pwm output settable with S parameter in the input_on_comand
+switch.module_name.failsafe_set_to 		    0 
+switch.module_name.startup_state            false
 
 ## Temperatureswitch :
 # automatically toggle a switch at a specified temperature. Different ones of these may be defined to monitor different temperatures and switch different swithxes
@@ -245,7 +261,7 @@ gamma_homing_retract_mm                      1                # "
 endstop_debounce_count                       100              # uncomment if you get noise on your endstops, default is 100
 
 ## Z-probe
-zprobe.enable                                true           # set to true to enable a zprobe
+zprobe.enable                                false           # set to true to enable a zprobe
 zprobe.probe_pin                             1.28^          # pin probe is attached to if NC remove the !
 zprobe.slow_feedrate                         2               # mm/sec probe feed rate
 zprobe.debounce_count                       100             # set if noisy
@@ -317,13 +333,3 @@ custom_menu.power_off.name                 Power_off         #
 custom_menu.power_off.command              M81               #
 
 
-## Network settings
-network.enable                               false            # enable the ethernet network services
-network.webserver.enable                     true             # enable the webserver
-network.telnet.enable                        true             # enable the telnet server
-#network.ip_address                           auto             # use dhcp to get ip address
-# uncomment the 3 below to manually setup ip address
-network.ip_address                           192.168.3.222    # the IP address
-#network.ip_mask                              255.255.255.0    # the ip mask
-#network.ip_gateway                           192.168.3.1      # the gateway address
-#network.mac_override                         xx.xx.xx.xx.xx.xx  # override the mac address, only do this if you have a conflict
