@@ -192,20 +192,19 @@ switch.fan.output_pin                        2.6              #
 switch.fan.output_type                       pwm              # pwm output settable with S parameter in the input_on_comand
 #switch.fan.max_pwm                           255              # set max pwm for the pin default is 255
 
-switch.misc.enable                           true             #
-switch.misc.input_on_command                 M42              #
-switch.misc.input_off_command                M43              #
-switch.misc.output_pin                       2.4              #
-switch.misc.output_type                      digital          # just an on or off pin
+#switch.misc.enable                           true             #
+#switch.misc.input_on_command                 M42              #
+#switch.misc.input_off_command                M43              #
+#switch.misc.output_pin                       2.4              #
+#switch.misc.output_type                      digital          # just an on or off pin
 
 #Spindle control Switch module
 switch.spindle.enable                       true             #
 switch.spindle.input_on_command             M3               #
 switch.spindle.input_off_command            M5               #
-switch.spindle.output_pin                   1.22              # Here we are using the first big MOSFET
-switch.spindle.output_type                  pwm              # pwm output settable with S parameter in the input_on_comand
-switch.module_name.failsafe_set_to 		    0 
-switch.spindle.max_pwm                           255 
+switch.spindle.output_pin                   2.4              # Here we are using the first big MOSFET
+switch.spindle.output_type                  digital              # pwm output settable with S parameter in the input_on_comand
+
 
 ## Temperatureswitch :
 # automatically toggle a switch at a specified temperature. Different ones of these may be defined to monitor different temperatures and switch different swithxes
