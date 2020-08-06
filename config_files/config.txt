@@ -48,21 +48,21 @@ z_axis_max_speed                             1200              # mm/min
 
 # Stepper module pins ( ports, and pin numbers, appending "!" to the number will invert a pin )
 alpha_step_pin                               2.0              # Pin for alpha stepper step signal
-alpha_dir_pin                                0.5!              # Pin for alpha stepper direction
+alpha_dir_pin                                0.5              # Pin for alpha stepper direction
 alpha_en_pin                                 0.4              # Pin for alpha enable pin
-alpha_current                                1.0             # X stepper motor current
+alpha_current                                0.5             # X stepper motor current
 alpha_max_rate                               7000.0          # mm/min
 
 beta_step_pin                                2.1              # Pin for beta stepper step signal
-beta_dir_pin                                 0.11!             # Pin for beta stepper direction
+beta_dir_pin                                 0.11             # Pin for beta stepper direction
 beta_en_pin                                  0.10             # Pin for beta enable
-beta_current                                 1.0           # Y stepper motor current
+beta_current                                 0.5           # Y stepper motor current
 beta_max_rate                                7000.0          # mm/min
 
 gamma_step_pin                               2.2              # Pin for gamma stepper step signal
-gamma_dir_pin                                0.20!             # Pin for gamma stepper direction
+gamma_dir_pin                                0.20             # Pin for gamma stepper direction
 gamma_en_pin                                 0.19             # Pin for gamma enable
-gamma_current                                1.7              # Z stepper motor current
+gamma_current                                0.5              # Z stepper motor current
 gamma_max_rate                               500.0            # mm/min
 
 ## System configuration
