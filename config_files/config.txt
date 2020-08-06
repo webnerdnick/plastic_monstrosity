@@ -12,12 +12,11 @@ mm_per_arc_segment                           0.02              # Arcs are cut in
 
 ## Network settings
 network.enable                               false            # enable the ethernet network services
-#network.webserver.enable                     true             # enable the webserver
-#network.telnet.enable                        true             # enable the telnet server
-
-#network.ip_address                           192.168.1.111    # the IP address
-#network.ip_mask                              255.255.255.0    # the ip mask
-#network.ip_gateway                           192.168.1.1      # the gateway address
+network.webserver.enable                     true             # enable the webserver
+network.telnet.enable                        true             # enable the telnet server
+network.ip_address                           192.168.1.111    # the IP address
+network.ip_mask                              255.255.255.0    # the ip mask
+network.ip_gateway                           192.168.1.1      # the gateway address
 #network.mac_override                         45.E2.F9.4E.BD.49  # override the mac address, only do this if you have a conflict
 
 # Arm solution configuration : Cartesian robot. Translates mm positions into stepper positions
@@ -203,7 +202,7 @@ switch.spindle.enable                       true             #
 switch.spindle.input_on_command             M3               #
 switch.spindle.input_off_command            M5               #
 switch.spindle.output_pin                   2.4              # Here we are using the first big MOSFET
-switch.spindle.output_type                  digital              # pwm output settable with S parameter in the input_on_comand
+switch.spindle.output_type                  digital          # pwm output settable with S parameter in the input_on_comand
 
 
 ## Temperatureswitch :
