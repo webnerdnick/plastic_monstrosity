@@ -11,7 +11,7 @@ mm_per_arc_segment                           0.02              # Arcs are cut in
                                                               # coordinates robots ).
 
 ## Network settings
-network.enable                               false            # enable the ethernet network services
+network.enable                               true            # enable the ethernet network services
 network.webserver.enable                     true             # enable the webserver
 network.telnet.enable                        true             # enable the telnet server
 network.ip_address                           192.168.1.111    # the IP address
@@ -22,7 +22,7 @@ network.ip_gateway                           192.168.1.1      # the gateway addr
 # Arm solution configuration : Cartesian robot. Translates mm positions into stepper positions
 alpha_steps_per_mm                           160 #200               # Steps per mm for alpha stepper
 beta_steps_per_mm                            160 #160               # Steps per mm for beta stepper
-gamma_steps_per_mm                           5120 #4535.44             # Steps per mm for gamma stepper
+gamma_steps_per_mm                           3200 #4535.44             # Steps per mm for gamma stepper
 
 # Planner module configuration : Look-ahead and acceleration configuration
 planner_queue_size                           32               # DO NOT CHANGE THIS UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING
