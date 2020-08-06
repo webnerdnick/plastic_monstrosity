@@ -20,9 +20,9 @@ network.ip_gateway                           192.168.1.1      # the gateway addr
 #network.mac_override                         45.E2.F9.4E.BD.49  # override the mac address, only do this if you have a conflict
 
 # Arm solution configuration : Cartesian robot. Translates mm positions into stepper positions
-alpha_steps_per_mm                           80 #200               # Steps per mm for alpha stepper
-beta_steps_per_mm                            80 #160               # Steps per mm for beta stepper
-gamma_steps_per_mm                           400 #4535.44             # Steps per mm for gamma stepper
+alpha_steps_per_mm                           160 #200               # Steps per mm for alpha stepper
+beta_steps_per_mm                            160 #160               # Steps per mm for beta stepper
+gamma_steps_per_mm                           5120 #4535.44             # Steps per mm for gamma stepper
 
 # Planner module configuration : Look-ahead and acceleration configuration
 planner_queue_size                           32               # DO NOT CHANGE THIS UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING
