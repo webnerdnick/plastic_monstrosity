@@ -33,8 +33,8 @@ junction_deviation                           0.005             # See http://smoo
 
 
 # Stepper module configuration
-microseconds_per_step_pulse                  1                # Duration of step pulses to stepper drivers, in microseconds
-base_stepping_frequency                      100000           # Base frequency for stepping
+microseconds_per_step_pulse                  1                # Duration of step pulses to stepper drivers, in microseconds this is a default
+base_stepping_frequency                      100000           # Base frequency for stepping this is a default
 
 # Cartesian axis speed limits
 x_axis_max_speed                             7000            # mm/min
