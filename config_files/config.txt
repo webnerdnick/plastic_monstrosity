@@ -22,7 +22,7 @@ network.ip_gateway                           192.168.1.1      # the gateway addr
 # Arm solution configuration : Cartesian robot. Translates mm positions into stepper positions
 alpha_steps_per_mm                           160 #200               # Steps per mm for alpha stepper
 beta_steps_per_mm                            160 #160               # Steps per mm for beta stepper
-gamma_steps_per_mm                           3200 #4535.44             # Steps per mm for gamma stepper
+gamma_steps_per_mm                           800 #4535.44             # Steps per mm for gamma stepper
 
 # Planner module configuration : Look-ahead and acceleration configuration
 # See http://smoothieware.org/motion-control
