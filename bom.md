@@ -34,10 +34,10 @@ Also, 18 AWG wire is the smallest wire recommended (bigger the number, smaller t
 
 # Moving Things
 
-| Qty.  | Item                                            | Price Ea.  | Site   | Link | Comments |
-| ----- | ----------------------------------------------- | ---------- | ------ | -----| -------- |
-| 2     | 5 meter Timing Belt, 10mm Wide, 2mm Pitch       | $13.98     | Amazon | https://www.amazon.com/gp/product/B078STSGSX/ref=crt_ewc_img_dp_8?ie=UTF8&psc=1&smid=A3CUHW0VYGYSCN |  long and short axis|
-| 1     | 300 mm T8 Lead Screw, 2mm pitch, 4 starts       | $9.99      | Amazon | https://www.amazon.com/gp/product/B078R7J7Q6/ref=crt_ewc_img_dp_6?ie=UTF8&psc=1&smid=A31QZVWR40HWH8 | z-axis|
+| Qty.  | Item                                                 | Price Ea.  | Site   | Link | Comments |
+| ----- | ---------------------------------------------------- | ---------- | ------ | -----| -------- |
+| 2     | 5 meter Timing Belt, 10mm Wide, 2mm Pitch            | $13.98     | Amazon | https://www.amazon.com/gp/product/B078STSGSX/ref=crt_ewc_img_dp_8?ie=UTF8&psc=1&smid=A3CUHW0VYGYSCN |  long and short axis|
+| 1     | 300 mm T8 Lead Screw, 2mm pitch, 2 start 4mm lead | $9.99      | Amazon | https://www.amazon.com/gp/product/B07ZC741KB/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1 | z-axis|
 | 1     | 5 pack 2GT-20 Timing Pulley, 20 teeth, 10mm width, 8mm bore ** | $10.99 | Amazon |  https://www.amazon.com/gp/product/B079JMHZW7/ref=crt_ewc_img_srh_1?ie=UTF8&psc=1&smid=A31QZVWR40HWH8 ||
 | 1     | 4 pack 5mm to 8mm leadscrew coupler             | $6.99      | Amazon | https://www.amazon.com/KINGPRINT-Coupling-Accessories-Engraving-Machines/dp/B073FDXHMG/ref=sr_1_3?dchild=1&keywords=5mm+to+8mm&qid=1595009976&sr=8-3 | coupling z-axis motor to leadscrew |
 | 1     | 20 pack 625-zz bearing (5mm x 16mm x 5mm)       | $9.95      | eBay   | https://www.ebay.com/itm/625-ZZ-C3-Premium-Metal-Shielded-Ball-Bearing-5x16x5-625Z-20-QTY/303360064601?hash=item46a1ab3c59:g:rl4AAOSwkqNeGKZV:sc:USPSFirstClass!16833!US!-1 | |
@@ -57,7 +57,7 @@ Out of convenience and better pricing, large packs of nuts and bolts are linked,
 
 | Qty.  | Item                                            | # Used | Price Ea.  | Site   | Link | Comments |
 | ----- | ----------------------------------------------- | -------|----------- | ------ | -----| -------- |
-| 1     | Anti-Backlash Nut, 8mm T8 Thread lead screw nut | 1      | $8.88      | Amazon | https://www.amazon.com/gp/product/B07T2MYS6D/ref=crt_ewc_title_dp_5?ie=UTF8&psc=1&smid=A3C0HXP4AGBIOG | |
+| 1     | Anti-Backlash Nut, 8mm T8, 4mm Lead             | 1      | $8.88      | Amazon | https://www.amazon.com/gp/product/B07T2MYS6D/ref=crt_ewc_title_dp_5?ie=UTF8&psc=1&smid=A3C0HXP4AGBIOG | |
 | 1     | 100 pack m5 lock nut 0.80 thread                |        | $8.94      | eBay   | https://www.ebay.com/itm/Stainless-Steel-Nylon-Insert-Hex-Lock-Nut-M2-5-M3-M4-M5-M6-M8-M10-M12-DIN-985/122599345751?hash=item1c8b7d8e57:g:FoIAAOSw8hhatDmz | |
 | 1     | 50 pack m5 THIN jam nuts, 0.80 thread           |        | $13.99     | eBay   | https://www.ebay.com/itm/Metric-DIN-439B-Jam-Nuts-Zinc-Plated-Steel-Class-04-Jam-Thin-Hex-Nuts-M4-M36/401806123372?var=671622982054 | |
 | 3     | 50 pack 20 series m5 Tee Nut, Slide-In  **      |        | $8.99      | Amazon | https://www.amazon.com/gp/product/B07MHH1HFQ | |
