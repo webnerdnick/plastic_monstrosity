@@ -11,7 +11,7 @@ mm_per_arc_segment                           0.02              # Arcs are cut in
                                                               # coordinates robots ).
 
 ## Network settings
-network.enable                               true            # enable the ethernet network services
+network.enable                               true             # enable the ethernet network services
 network.webserver.enable                     true             # enable the webserver
 network.telnet.enable                        true             # enable the telnet server
 network.ip_address                           192.168.1.111    # the IP address
@@ -22,19 +22,18 @@ network.ip_gateway                           192.168.1.1      # the gateway addr
 # Arm solution configuration : Cartesian robot. Translates mm positions into stepper positions
 alpha_steps_per_mm                           160 #200               # Steps per mm for alpha stepper
 beta_steps_per_mm                            160 #160               # Steps per mm for beta stepper
-gamma_steps_per_mm                           800 #4535.44             # Steps per mm for gamma stepper
+gamma_steps_per_mm                           800 #4535.44          # Steps per mm for gamma stepper
 
 # Planner module configuration : Look-ahead and acceleration configuration
 # See http://smoothieware.org/motion-control
-acceleration                                 3000             # Acceleration in mm/second/second.
-#z_acceleration                              500              # Acceleration for Z only moves in mm/s^2, 0 uses acceleration which is the default. DO NOT SET ON A DELTA
-junction_deviation                           0.005             # See http://smoothieware.org/motion-control#junction-deviation
-#z_junction_deviation                        0.0              # For Z only moves, -1 uses junction_deviation, zero disables junction_deviation on z moves DO NOT SET ON A DELTA
-
+acceleration                                 50 		# Acceleration in mm/second/second.
+z_acceleration                               25 		# Acceleration for Z only moves in mm/s^2, 0 uses acceleration which is the default. DO NOT SET ON A DELTA
+junction_deviation                           0.005              # See http://smoothieware.org/motion-control#junction-deviation
+#z_junction_deviation                        0.0                # For Z only moves, -1 uses junction_deviation, zero disables junction_deviation on z moves DO NOT SET ON A DELTA
 
 # Stepper module configuration
-microseconds_per_step_pulse                  1                # Duration of step pulses to stepper drivers, in microseconds this is a default
-base_stepping_frequency                      100000           # Base frequency for stepping this is a default
+microseconds_per_step_pulse                  2                # Duration of step pulses to stepper drivers, in microseconds
+base_stepping_frequency                      100000           # Base frequency for stepping
 
 # Cartesian axis speed limits
 x_axis_max_speed                             7000            # mm/min
@@ -49,7 +48,7 @@ alpha_current                                0.5             # X stepper motor c
 alpha_max_rate                               7000.0          # mm/min
 
 beta_step_pin                                2.1              # Pin for beta stepper step signal
-beta_dir_pin                                 0.11             # Pin for beta stepper direction
+beta_dir_pin                                 0.11!             # Pin for beta stepper direction
 beta_en_pin                                  0.10             # Pin for beta enable
 beta_current                                 0.5           # Y stepper motor current
 beta_max_rate                                7000.0          # mm/min
